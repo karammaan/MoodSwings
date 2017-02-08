@@ -58,7 +58,7 @@
         android:textSize="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:background="#f085d3ed"
+        android:background="#f085d3d"
         android:id="@+id/smart_btn"
         android:layout_below="@id/angry_btn"
         android:layout_toRightOf="@id/quiet_btn"/>
