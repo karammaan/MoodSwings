@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moodswing"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAPPY"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#f085d3ed"
+        android:id="@+id/happy_btn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANGRY"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#f085d3ed"
+        android:id="@+id/angry_btn"
+        android:layout_toRightOf="@id/happy_btn"/>
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CONFUSED"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp"
+    android:background="#f085d3ed"
+    android:id="@+id/confused_btn"
+    android:layout_toRightOf="@id/angry_btn"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIET"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#f085d3ed"
+        android:id="@+id/quiet_btn"
+        android:layout_below="@id/happy_btn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMART"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#f085d3ed"
+        android:id="@+id/smart_btn"
+        android:layout_below="@id/angry_btn"
+        android:layout_toRightOf="@id/quiet_btn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SURPRISED"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#f085d3ed"
+        android:id="@+id/surprised_btn"
+        android:layout_below="@id/confused_btn"
+        android:layout_toRightOf="@id/smart_btn"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/happy"
+        android:layout_centerInParent="true"
+        android:id="@id/image"
+       />
+
+
+
+
+</RelativeLayout>
+
